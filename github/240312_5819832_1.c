@@ -6,7 +6,7 @@ int main() {
     int n;
 
     for (int i = 2; i <= 100; i++) {
-        for (n = 2; n <= i; n++) {
+        for (n = 2; n < i; n++) {
             if (i % n == 0) //나머지가 0인 수는 소수에서 제외
                 break;
         }
