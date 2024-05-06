@@ -57,23 +57,6 @@ void print_queue(QueueType* q) {
 
 main() {
 
-
-	QueueType queue;
-	element e;
-	init_queue(&queue);
-	/*
-	enqueue(&queue, 1); print_queue(&queue);
-	enqueue(&queue, 2); print_queue(&queue);
-	enqueue(&queue, 3); print_queue(&queue);
-	enqueue(&queue, 4); print_queue(&queue);
-	enqueue(&queue, 5); print_queue(&queue);
-	enqueue(&queue, 6); print_queue(&queue);
-	e = dequeue(&queue); printf("<%2d> ", e);   print_queue(&queue);
-	e = dequeue(&queue); printf("<%2d> ", e);   print_queue(&queue);
-	e = dequeue(&queue); printf("<%2d> ", e);   print_queue(&queue);
-	*/
-	int choice;
-
 	while (1) {
 		printf("1. 큐에 원소를 삽입\n");
 		printf("2. 큐에서 원소를 삭제\n");
